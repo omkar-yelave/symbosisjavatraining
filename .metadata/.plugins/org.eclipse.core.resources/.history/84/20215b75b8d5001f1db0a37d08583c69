@@ -1,0 +1,17 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Text14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter value of a,b,c:");
+		Double a=sc.nextDouble();
+		Double b=sc.nextDouble();
+		Double c=sc.nextDouble();
+		Double p=(b*b-4*a*c);
+	}
+
+}

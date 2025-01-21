@@ -1,0 +1,44 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Text35 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter your salary:");
+		double sal=sc.nextDouble();
+		double in=0.0;
+		double tax=0.0;
+		if(sal<=250000)
+		{
+			System.out.println("nil");
+		}
+		else if(sal>250000 && sal<=750000)
+		{
+			in=(5.0/100.0)*sal;
+			System.out.println("tax:"+in);
+		}
+		else if(sal>750000 && sal<=100000)
+		{
+			in=(10.0/100.0)*sal;
+			tax=in-sal;
+			System.out.println("tax:"+tax);
+		}
+		else if(sal>100000 && sal<=1500000)
+		{
+			in=(20.0/100.0)*sal;
+			tax=in-sal;
+			System.out.println("tax:"+tax);
+		}
+		else
+		{
+			in=(30.0/100.0)*sal;
+			tax=in-sal;
+			System.out.println("tax:"+tax);
+		}
+		
+	}
+
+}

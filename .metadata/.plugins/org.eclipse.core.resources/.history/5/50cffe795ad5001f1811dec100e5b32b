@@ -1,0 +1,25 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Text24 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a character:");
+		char ch=sc.next().charAt(0);
+		switch(ch)
+		{
+		case A:
+			System.out.println("apple");
+			break;
+		case B:
+			System.out.println("bat");
+			break;
+		default:
+			System.out.println("enter valid character");
+		}
+	}
+
+}

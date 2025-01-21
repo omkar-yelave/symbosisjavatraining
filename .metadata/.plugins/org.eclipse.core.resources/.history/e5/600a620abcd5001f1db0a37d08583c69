@@ -1,0 +1,29 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Text31 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter basic salary:");
+		int sal=sc.nextInt();
+		System.out.println("------------salary slip--------------");
+		int da=(30/100)*sal;
+		System.out.println("DA:"+da);
+		int hra=(15/100)*sal;
+		System.out.println("HRA:"+hra);
+		int gs=sal+da+hra;
+		System.out.println("gross salary:"+gs);
+		int pf=(12/100)*sal;
+		System.out.println("PF:"+pf);
+		int ins=500;
+		int nd=pf+ins;
+		System.out.println("net deduction:"+nd);
+		int ns=gs-nd;
+		System.out.println("net salary:"+ns);
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Text11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter base and hight of traingle:");
+		int hight=sc.nextInt();
+		int base=sc.nextInt();
+		
+		int area=1/2*base*hight;
+		System.out.println("area of traingle:"+area);
+	}
+
+}
