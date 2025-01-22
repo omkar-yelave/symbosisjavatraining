@@ -1,6 +1,6 @@
 package basic;
 
-public class Text58 {
+public class Text62 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,7 +9,7 @@ public class Text58 {
 		{
 			for(j=1;j<=i;j++)
 			{
-				System.out.print(j);
+				System.out.print(i);
 			}
 			System.out.println();
 		}
